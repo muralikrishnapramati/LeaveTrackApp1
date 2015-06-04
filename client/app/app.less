@@ -8,6 +8,10 @@
  * App-wide Styles
  */
 
+.clear-fix{
+    clear:both;
+    float: none;
+}
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -16,5 +20,7 @@
 }
 
 // injector
-@import 'main/main.less';
+@import 'directives/commonDirectives/commonDirectives.less';
+@import 'views/home/home.less';
+@import 'views/main/main.less';
 // endinjector
